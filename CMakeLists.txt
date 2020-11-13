@@ -18,6 +18,8 @@ target_link_libraries(
     main
     PUBLIC
     ffmpeg::avcodec
+    ffmpeg::avdevice
+    ffmpeg::avfilter	
     ffmpeg::avformat
     ffmpeg::avutil
     ffmpeg::swresample
